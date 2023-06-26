@@ -1,0 +1,63 @@
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 46%;
+  background-image: url('images/railroad-163518_1920.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-position 0.2s ease;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar li {
+  padding: 10px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar li a:hover {
+  background-color: #ddd;
+}
+
+.section {
+  margin-top: 30vh;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  color: #fff;
+}
+</style>
